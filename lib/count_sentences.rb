@@ -2,7 +2,10 @@
 # sentences in the string it is called on
 
 class String
+
   def count_sentences
-    # code goes here
+  split(/[?.!]/).length
+  #when calling method in a class assumes self. 
   end
+
 end
